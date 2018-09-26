@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!--<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:id="@+id/nestedScroll"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:fillViewport="true">-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textColor="#ffffff"
+        android:background="#780000"
+        android:text="Text View 1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#780000"
+        android:textColor="#ffffff"
+        android:text="Text View 2" />
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="#033"
+        android:nestedScrollingEnabled="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textColor="#ffffff"
+        android:background="#780000"
+        android:text="Text View 3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#780000"
+        android:textColor="#ffffff"
+        android:text="Text View 4" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textColor="#ffffff"
+        android:background="#780000"
+        android:text="Text View 3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#780000"
+        android:textColor="#ffffff"
+        android:text="Text View 4" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textColor="#ffffff"
+        android:background="#780000"
+        android:text="Text View 3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#780000"
+        android:textColor="#ffffff"
+        android:text="Text View 4" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textColor="#ffffff"
+        android:background="#780000"
+        android:text="Text View 3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#780000"
+        android:textColor="#ffffff"
+        android:text="Text View 4" />
+
+</LinearLayout>
+
+    <!--</android.support.v4.widget.NestedScrollView>-->
